@@ -1,0 +1,443 @@
+*{
+	margin:0px;
+	padding:0px;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    color: goldenrod;
+   
+}
+.navbar .container-fluid{
+    width: 1500px;
+    display: flex;
+    justify-content: space-between;
+    background-color:black;
+    margin-bottom: 15px;
+}
+.navbar-colapse{
+    max-height: 550px;
+    justify-content: flex-end;
+}
+
+.nav-link{
+    color: black;
+    margin-left: 85px;
+    text-align: center;
+}
+
+.ficha{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 12px;
+}
+
+#fondo{
+    width: 1348px;
+    height: 650px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7l-F6IJfBLvAH8taL2hKPHqGPlSbd1rrFQQ&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.card-title{
+    text-align: center;
+}
+
+.above_the_fold{
+    background-size: cover;
+}
+
+.Perfil{
+    width: 310px;
+    padding: 20px;
+    box-shadow: 1px 2px 5px goldenrod;
+   
+  
+}
+
+.nombre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    color: black;
+    width: 400px;
+    top: 20px;
+}
+
+.titulo{
+    width: 190px;
+    display:inline;
+    background-color:cadetblue;
+    border-style:solid;
+    border-radius: 200px;
+    color: black;
+    margin-left: 25px;
+}
+
+img{
+    width: 110px;
+    right: 5px;
+    position: relative;
+}
+
+
+p{
+    text-align: center;
+    color: black;
+    border-style: solid;
+}
+
+
+
+h1{
+  text-align: center;
+  background-color: black;
+  border-style: solid;
+  color: goldenrod;
+}
+
+
+
+.Barcos-que-navegaban{
+  background-color:goldenrod;
+}
+
+.slide{
+  margin-top: 10px;
+  align-items:center;
+  height: 5%;
+  width: 1000px;
+  height: 330px;
+}
+
+.slide img{
+  height: 50%;
+  /*width: 300px;*/
+}
+
+.caracteristicas{
+  display:flex;
+  margin-left: 35%;
+  margin-top: -215px;
+  background-color: goldenrod;
+  height: 175px;
+  padding-left: 2%;
+  padding-right: 2%;
+  align-items: left;
+  border-style: none;
+}
+
+#conoce{
+    margin-left: 38%;
+    background-color: rgb(192, 144, 22);
+    margin-bottom: 5px;
+    margin-top: -4px;
+}
+
+.juegos{
+   position: relative;
+   width: 470px;
+   top: 350px;
+   left: 800px;
+   color: crimson;
+   border-style: none;
+}
+
+.inicio{
+   text-align: center;
+   top: 345px;
+   left: 450px;
+   position: relative;
+   color: crimson;
+   border-style: none;
+}
+
+.btn-outline-info{
+    top: 350px;
+    left: 810px;
+    position: relative;
+}
+
+.btn-outline-dark{
+    position: relative;
+    top: 350px;
+    left: 810px;
+}
+
+footer ul{
+    background-color:goldenrod;
+    color: black; 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer li{
+    width: 95px;
+    display: inline-block;
+    line-height: 35px;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 80px;
+}
+.conviertete{
+    background-color: black;
+}
+.conviertete input{
+    width: 250px;
+    height: 40px;
+    margin-left: 410px;
+    text-indent: 5px;
+}
+.conviertete p{
+    border-style: none;
+    color: goldenrod;
+}
+
+.form-floating{
+    width: 536px;
+    margin-top: 5px;
+    margin-left: 410px;
+}
+
+#ajuste{
+    margin-left: 30px;
+}
+
+.navbar-nav .custom-color .nav-link {
+  color:goldenrod;
+  transition: color 0.5s ease;
+
+}
+
+.navbar-nav .custom-color .nav-link:hover {
+  font-weight: bold;
+  color: crimson;
+}
+
+.btn-primary{
+    width: 550px;
+    margin-left: 400px;
+}
+
+#bas{
+    border-color: blue;
+}
+
+#ext{
+    border-color: aquamarine;
+}
+
+#pre{
+    border-color: goldenrod;
+}
+
+
+
+.card {
+  padding-top: 20px;
+  margin-top: 30px;
+  text-align: right;
+  border: color(srgb rgb(185, 185, 185));
+  box-shadow: none;
+
+}
+
+
+
+.categoria {
+  margin-top: 7px;
+  text-align: center;
+}
+
+.descuento {
+  margin-top: 20px;
+  text-align: center;
+  border-style: none;
+}
+
+.porcentaje {
+  margin-top: 25px;
+  text-align: center;
+  font-weight: bold;
+  border-style: none;
+}
+
+.presentar {
+  margin-top: 25px;
+  text-align: center;
+  border-style: none;
+}
+
+
+h4 {
+  text-align: center;
+}
+
+
+.btn {
+  border-radius: 3px;
+}
+
+.btn-quiero {
+  color: #bbbbbb;
+}
+
+.btn-quiero:hover {
+  font-weight: bold;
+  background-color: #999999;
+  border: none;
+}
+
+.btn-membresia {
+  color:blue;
+  background-color:goldenrod
+ 
+}
+
+.btn-membresia:hover {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.container-fluid {
+  padding-left: 10%;
+  padding-right: 8%;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
+
+
+
+.card-small {
+  max-width: 300px;
+}
+
+.card {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.btn-success.total{
+  background-color:darkgreen;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: -10px;
+}
+
+.btn-conoce {
+  color: transparent;
+  border-style: 1px;
+}
+
+.btn-conoce:hover {
+  font-weight: bold;
+}
+
+.formulario {
+  margin-top: 0px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 10px;
+}
+
+.borrar_resumen {
+  margin-top: 0px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 10px;
+}
+
+.tit_formulario {
+  margin-top: 15px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 1px;
+}
+
+.titulo1_principal {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-style:none;
+}
+
+.titulo2_secundario {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 0px;
+  border-style:none;
+}
+
+
+.col{
+    margin-top: 5px;
+}
+
+.titulo4_formulario {
+  color: rgb(27, 27, 27);
+  font-size: 12px;
+  text-align: left;
+}
+
+.total {
+  font-size: 50px;
+  size: 100%;
+  align-items: center;
+  margin-left: 0px;
+  text-align: left;
+  border: none;
+}
+
+/*.btn-success {
+  color: #f8f8f8;
+  background-color: #71db71;
+  font-size: 15px;
+}*/
+
+.fondo {
+  margin-top: 0px;
+  background-color: rgb(25, 58, 77);
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.row.fondo a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+  width: 100%;
+}
+
+.row.fondo a:hover {
+  color: #999999;
+}
+
+.btn-info  {
+    margin-top: 10px;
+   color: blue !important;
+}
+
+#resultado{
+  text-align: left;
+}
+
+#mail{
+    margin-top: 8px;
+}
+
+.btn-success{
+  text-align: center;
+}
